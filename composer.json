@@ -1,0 +1,27 @@
+{
+  "name": "tahazzot/thesocialnetwork",
+  "description": "thefacebook app inspired from \"The Social Network (2010)\" movie",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Core\\": "src/Core",
+      "Application\\": "src/Application",
+      "Domain\\": "src/Domain",
+      "Infrastructure\\": "src/Infrastructure",
+      "Presentation\\": "src/Presentation",
+      "Common\\": "src/Common"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tahazzot",
+      "email": "iamtahazzot@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php-di/php-di": "^7.0",
+    "symfony/http-foundation": "^7.1"
+  }
+}

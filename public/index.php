@@ -1,3 +1,6 @@
 <?php
 
-echo 'Hello from the other side!';
+require __DIR__ . '/../vendor/autoload.php';
+
+// Initializing the app
+Core\App::init();
