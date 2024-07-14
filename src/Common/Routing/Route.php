@@ -10,7 +10,7 @@ use DI\Container;
 class Route
 {
 
-    use CompileRoute;
+    use PathResolver;
 
     /**
      * Collect all routes

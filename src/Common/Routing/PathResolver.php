@@ -5,7 +5,7 @@ namespace Common\Routing;
 use ReflectionMethod, ReflectionFunction, ReflectionParameter;
 use DI\Container;
 
-trait CompileRoute
+trait PathResolver
 {
 
     protected static Container $container;
